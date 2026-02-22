@@ -25,3 +25,11 @@ Conta dedicada à projetos desenvolvidos em uma diversificação de linguagens d
             
   <img alt="Wordpress" title="Wordpress" width="30" src="https://raw.githubusercontent.com/devicons/devicon/670a611ad1c3e057ee385168d65c8ab27a7e1be5/icons/wordpress/wordpress-plain-wordmark.svg" />
 </p>
+
+### Estatísticas
+
+<p>
+<img src="https://github-readme-stats-sigma-five.vercel.app/api?username=Daniell-Augusto&show_icons=true&locale=pt-br&theme=dark" alt="Daniell-Augusto"/>
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=Daniell-Augusto&theme=dark&locale=pt-br" alt="Daniell-Augusto" />
+</p>
+

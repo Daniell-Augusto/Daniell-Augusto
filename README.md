@@ -29,7 +29,7 @@ Conta dedicada à projetos desenvolvidos em uma diversificação de linguagens d
 ### Estatísticas
 
 <p>
-<img src="https://github-readme-stats-sigma-five.vercel.app/api?username=Daniell-Augusto&show_icons=true&locale=pt-br&theme=dark" alt="Daniell-Augusto"/>
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=Daniell-Augusto&theme=dark&locale=pt-br" alt="Daniell-Augusto" />
+<img src="https://github-readme-stats-sigma-five.vercel.app/api?username=Daniell-Augusto&show_icons=true&locale=pt-br&theme=dark" alt="Daniell-Augusto" width="400"/>
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=Daniell-Augusto&theme=dark&locale=pt-br" alt="Daniell-Augusto" width="400"/>
 </p>
 

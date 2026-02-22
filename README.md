@@ -1,6 +1,4 @@
-<div align="center">
-  <img src="" width="800" height="400" >
-</div>
+# Daniel Augusto
 
 Conta dedicada à projetos desenvolvidos em uma diversificação de linguagens de programação.
 

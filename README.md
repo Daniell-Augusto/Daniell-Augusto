@@ -1,4 +1,4 @@
-# Daniel Augusto
+# Pyrus
 
 Conta dedicada à projetos desenvolvidos em uma diversificação de linguagens de programação.
 

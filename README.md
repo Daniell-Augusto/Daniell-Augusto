@@ -2,7 +2,7 @@
 
 [![Typing SVG](https://readme-typing-svg.herokuapp.com/?color=ff0000&size=38&center=true&vCenter=true&width=1000&lines=Bem-vindo,+me+chamo+Daniel!!;Welcome,+my+name+is+Daniel!!)](https://git.io/typing-svg)
 
-<img src="https://raw.githubusercontent.com/MicaelliMedeiros/micaellimedeiros/master/image/computer-illustration.png" alt="Ilustração de um computador" min-width="400px" max-width="400px" width="400px" align="right">
+<img src="https://raw.githubusercontent.com/MicaelliMedeiros/micaellimedeiros/master/image/computer-illustration.png" alt="Ilustração de um computador" min-width="400px" max-width="350px" width="350px" align='right'>
 
 <p align="center">
   Portfólio de projetos e trabalhos acadêmicos <br>

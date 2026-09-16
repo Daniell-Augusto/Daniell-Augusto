@@ -1,0 +1,39 @@
+name: Update README Greeting
+
+on:
+  schedule:
+    # Agendado para executar às 05:00, 12:00 e 18:00 no horário de Brasília (UTC-3)
+    # 08:00, 15:00 e 21:00 UTC
+    - cron: '0 8,15,21 * * *'
+  workflow_dispatch: # Permite rodar o script manualmente para testar
+
+jobs:
+  update-readme:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write # Garante permissão para alterar o README e dar commit
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Update Greeting Text
+        run: |
+          # Obtém a hora atual no fuso horário de Brasília
+          HOUR=$(TZ="America/Sao_Paulo" date +%H)
+          
+          if [ "$HOUR" -ge 5 ] && [ "$HOUR" -lt 12 ]; then
+            GREETING="Bom+dia"
+          elif [ "$HOUR" -ge 12 ] && [ "$HOUR" -lt 18 ]; then
+            GREETING="Boa+tarde"
+          else
+            GREETING="Boa+noite"
+          fi
+          
+          # Substitui apenas a primeira saudação, mantendo o texto em inglês
+          sed -i -E "s/lines=[^;]*/lines=${GREETING},+me+chamo+Daniel!!/g" README.md
+
+      - name: Commit and push if changed
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          git diff --quiet || (git commit -m "chore: atualiza saudação automática do README" && git push)

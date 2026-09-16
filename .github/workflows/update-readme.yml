@@ -2,7 +2,6 @@ name: Update README Greeting
 
 on:
   schedule:
-    # Agendado para rodar às 05:00, 12:00 e 18:00 no horário de Brasília (08:00, 15:00 e 21:00 UTC)
     - cron: '0 8,15,21 * * *'
   workflow_dispatch:
 

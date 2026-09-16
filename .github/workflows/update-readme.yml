@@ -1,35 +1,33 @@
 name: Update README Greeting
 
 on:
-  schedule:
-    - cron: '0 8,15,21 * * *'
-  workflow_dispatch:
+  schedule:
+    - cron: '0 8,15,21 * * *'
+  workflow_dispatch:
 
 jobs:
-  update-readme:
-    runs-on: ubuntu-latest
-    permissions:
-      contents: write
-    steps:
-      - name: Checkout repository
-        uses: actions/checkout@v4
+  update-readme:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
 
-      - name: Update Greeting Text
-        run: |
-          HOUR=$(TZ="America/Sao_Paulo" date +%H)
-          
-          if [ "$HOUR" -ge 5 ] && [ "$HOUR" -lt 12 ]; then
-            GREETING="Bom+dia"
-          elif [ "$HOUR" -ge 12 ] && [ "$HOUR" -lt 18 ]; then
-            GREETING="Boa+tarde"
-          else
-            GREETING="Boa+noite"
-          fi
-          
-          sed -i -E "s/lines=[^;]*/lines=${GREETING},+me+chamo+Daniel!!/g" README.md
+      - name: Update Greeting Text
+        run: |
+          HOUR=$(TZ="America/Sao_Paulo" date +%H)
+          if [ "$HOUR" -ge 5 ] && [ "$HOUR" -lt 12 ]; then
+            GREETING="Bom+dia"
+          elif [ "$HOUR" -ge 12 ] && [ "$HOUR" -lt 18 ]; then
+            GREETING="Boa+tarde"
+          else
+            GREETING="Boa+noite"
+          fi
+          sed -i -E "s/lines=[^;]*/lines=${GREETING},+me+chamo+Daniel!!/g" README.md
 
-      - name: Commit and push if changed
-        run: |
-          git config --local user.email "github-actions[bot]@users.noreply.github.com"
-          git config --local user.name "github-actions[bot]"
-          git diff --quiet || (git commit -m "chore: atualiza saudação automática do README" && git push)
+      - name: Commit and push if changed
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          git diff --quiet || (git commit -m "chore: atualiza saudação automática do README" && git push)

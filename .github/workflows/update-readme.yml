@@ -2,16 +2,14 @@ name: Update README Greeting
 
 on:
   schedule:
-    # Agendado para executar às 05:00, 12:00 e 18:00 no horário de Brasília (UTC-3)
-    # 08:00, 15:00 e 21:00 UTC
     - cron: '0 8,15,21 * * *'
-  workflow_dispatch: # Permite rodar o script manualmente para testar
+  workflow_dispatch:
 
 jobs:
   update-readme:
     runs-on: ubuntu-latest
     permissions:
-      contents: write # Garante permissão para alterar o README e dar commit
+      contents: write
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4

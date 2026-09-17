@@ -2,7 +2,7 @@ name: Update README Greeting
 
 on:
   schedule:
-    - cron: '0 8,15,21 * * *'
+    - cron: '15 * * * *'
   workflow_dispatch:
 
 jobs:

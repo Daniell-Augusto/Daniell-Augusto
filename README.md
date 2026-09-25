@@ -1,6 +1,6 @@
 <img width=100% src="https://capsule-render.vercel.app/api?type=waving&color=red,100:FF0000&height=80&section=header"/>
 
-[![Typing SVG](https://readme-typing-svg.herokuapp.com/?color=ff0000&size=38&center=true&vCenter=true&width=1000&lines=Boa+tarde,+me+chamo+Daniel!!;Good+afternoon,+my+name+is+Daniel!!)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.herokuapp.com/?color=ff0000&size=38&center=true&vCenter=true&width=1000&lines=Boa+noite,+me+chamo+Daniel!!;Good+evening,+my+name+is+Daniel!!)](https://git.io/typing-svg)
 
 <img src="https://raw.githubusercontent.com/MicaelliMedeiros/micaellimedeiros/master/image/computer-illustration.png" alt="Ilustração de um computador" width="400px" align='right'>
 

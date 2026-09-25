@@ -19,7 +19,7 @@
     <div class='row'>
       <img alt="Bootstrap" title="Bootstrap" width="50" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/bootstrap/bootstrap-original.svg"/>        
       <img alt="PHP" title="PHP" width="50" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/php/php-original.svg"/>      
-      <img alt="Git" title="Git" width="50" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/git/git-original.svg"/>
+      <img alt="Python" title="Python" width="50" src="https://raw.githubusercontent.com/marwin1991/profile-technology-icons/refs/heads/main/icons/python.png" />
     </div>
     <div class='row'>
       <img alt="Java" title="Java" width="50" src="https://raw.githubusercontent.com/devicons/devicon/670a611ad1c3e057ee385168d65c8ab27a7e1be5/icons/java/java-original-wordmark.svg" />  
